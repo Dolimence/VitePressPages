@@ -2,6 +2,11 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+lang: zh-CN
+title: VitePress
+titleTemplate: Vite 和 Vue 强力驱动的静态网站生成器
+description: 简单、强大、快速。满足你一直想要的现代SSG框架
+
 hero:
   name: "DoliL in ViteSite"
   text: "An Awesome Peoject"
@@ -17,6 +22,14 @@ hero:
       text: API Examples
       link: /api-examples
 
+head:
+  - - meta
+    - name: description
+      content: hello
+  - - meta
+    - name: keywords
+      content: super duper SEO
+
 features:
   - title: Feature A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -24,5 +37,7 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: https://vitejs.cn/
+    linkText: Vite
 ---
 

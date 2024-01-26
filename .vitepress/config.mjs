@@ -8,15 +8,53 @@ export default defineConfig({
   // 用来做SEO
   description: "A VitePress Site",
   themeConfig: {
+    editLink: { 
+      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path', 
+      text: '在GitHub编辑本页'
+    },
+    lastUpdated: true, //此配置不会立即生效，需git提交后爬取时间戳，本地报错可以先注释
+    themeConfig: {
+      //上次更新时间
+      lastUpdatedText:'上次更新', 
+    },
     outlineTitle: "文章目录",
     outline: [2,6],
     logo: '/public/logo.svg',
+    // siteTitle: false,
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'More', link: '/markdown-examples' },
-      { text: '侧边栏1', link: '/front-end/react' },
-      { text: '侧边栏2', link: '/backend/rabbitmq' }
+      { text: '首页', link: '/' },
+      {
+        text: '指南',
+        items: [
+          {
+            // 分组标题1
+            text: '介绍',
+            items: [
+              { text: '前言', link: '/preface' },
+            ],
+          },
+          {
+            // 分组标题2
+            text: '基础设置',
+            items: [
+              { text: '快速上手', link: '/getting-started' },
+              { text: '配置', link: '/configuration' },
+              { text: '页面', link: '/page' },
+              { text: 'Frontmatter', link: '/frontmatter' },
+            ],
+          },
+          {
+            // 分组标题3
+            text: '进阶玩法',
+            items: [
+              { text: 'Markdown', link: '/Markdown' },
+              { text: '静态部署', link: '/assets' },
+            ],
+          },
+        ],
+      },
+      { text: 'VitePress', link: 'https://vitepress.dev/' },
     ],
 
     sidebar: [
@@ -37,7 +75,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'x', link: 'https://github.com/vuejs/vitepress' }
     ],
     // footer
     footer: 
