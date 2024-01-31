@@ -2,9 +2,9 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
-lang: zh-CN
-title: VitePress
-titleTemplate: Vite 和 Vue 强力驱动的静态网站生成器
+lang: ko
+title: DoliL in vitepress 한국어
+titleTemplate: Vite and Vue가 새해 복 많이 받으세요
 description: 简单、强大、快速。满足你一直想要的现代SSG框架
 
 hero:
@@ -16,10 +16,10 @@ hero:
     alt: DoliL in ViteSite
   actions:
     - theme: brand
-      text: Get Started
+      text: 시작
       link: https://www.notion.so/dolimence/DoliL-2bb88dd5ba57444c93305e96a458517f
     - theme: alt
-      text: Update Content
+      text: 콘텐츠 업데이트
       link: /api-examples
 
 head:
