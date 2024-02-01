@@ -36,7 +36,7 @@ features:
       light: /notion.png
     title: Notion
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: https://www.notion.so/dolimence/DoliL-2bb88dd5ba57444c93305e96a458517f
+    link: https://dolimence.notion.site/DoliL-2bb88dd5ba57444c93305e96a458517f
     linkText: Vite
   - icon: 
       dark: /flowUs.png
