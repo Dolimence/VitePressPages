@@ -2,9 +2,9 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
-lang: en
-title: DoliL in vitepress English
-titleTemplate: Vite and Vue super learning document
+lang: zh-CN
+title: VitePress
+titleTemplate: Vite 和 Vue 强力驱动的静态网站生成器
 description: 简单、强大、快速。满足你一直想要的现代SSG框架
 
 hero:
