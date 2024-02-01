@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/VitePressPages/",
-  head: [["link", { rel: "icon", href: "/VitePressPages/logo.svg" }]],
+  head: [["link", { rel: "icon", href: "/public/logo.svg" }]],
   title: "DoliL in VitePress",
   // 用来做SEO
   description: "A VitePress Site",
@@ -104,7 +104,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'github', link: 'https://github.com/Dolimence/VitePressPages' },
       { icon: 'x', link: 'https://twitter.com/dolimence' },
       { icon: 'slack', link: 'https://app.slack.com/client/T03UCM34MCM/C03U13EH1B9' }
     ],
