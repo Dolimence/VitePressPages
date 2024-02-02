@@ -10,6 +10,13 @@ export default defineConfig({
   description: "A VitePress Site",
   lastUpdatedText: '上次更新',
 
+  markdown: {
+    image: {
+      // 开启图片懒加载
+      lazyLoading: true
+    },
+  },
+
   themeConfig: {
     lastUpdated: {
       text: 'Updated at',
@@ -45,7 +52,44 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Content', link: '/content/' },
-      { text: 'VitePress', link: 'https://vitepress.dev/' },
+      {
+        text: 'Others',
+        items: [
+          { text: 'Notion', link: 'https://dolimence.notion.site/DoliL-2bb88dd5ba57444c93305e96a458517f' },
+          { text: 'FlowUs', link: 'https://flowus.cn/dolimence/share/78f4e9db-4b77-45af-ac85-0c828cc346dd【FlowUs 息流】DoliL in FlowUs' },
+          { text: 'VuePress', link: '/item-3' },
+        ]
+      },
+      {
+        text: 'Guide',
+        items: [
+          {
+            text: 'Development Technology',
+            items: [
+              { text: 'VitePress', link: '/Design Development/VitePress/'},
+              { text: 'VuePress', link: '/Design Development/VuePress/'},
+              { text: 'Java', link: '/Back end Technology/Java/'},
+            ]
+          },
+          {
+            text: 'Desigin Technology',
+            items: [
+              { text: 'Blender', link:'/Design Development/Blender/'},
+              { text: 'Cubase10', link:'/Design Development/'}
+            ]
+          },
+          {
+            text: 'Other Skills',
+            items: [
+              { text: 'Matlab', link:'/Others/Matlab/'},
+              { text: 'Python', link:'/Others/Python/'},
+              { text: 'TensorFlow', link:'/Others/TensorFlow/'},
+              { text: 'Linux', link:'/Others/Liunx/'},
+            ]
+          }
+        ]
+      },
+      { text: 'About', link: '/About-Update/about' },
     ],
 
     sidebar: {
@@ -54,52 +98,57 @@ export default defineConfig({
           text: 'Front end Technology',
           collapsed: false,
           items: [
-            {text: 'CSS', link: '/Front end Technology/CSS/'},
-            {text: 'HTML5', link: '/Front end Technology/HTML5/'},
-            {text: 'JavaScript', link: '/Front end Technology/JavaScript/'},
-            {text: 'React', link: '/Front end Technology/React/'},
-            {text: 'TypeScript', link: '/Front end Technology/TypeScript/'},
-            {text: 'Vue', link: '/Front end Technology/Vue/'},
-            {text: 'WeChat Applets', link: '/Front end Technology/WeChat Applets/'},
-            {text: 'Node.js', link: '/Front end Technology/Node.js/'},
+            { text: 'CSS', link: '/Front end Technology/CSS/' },
+            { text: 'HTML5', link: '/Front end Technology/HTML5/' },
+            { text: 'JavaScript', link: '/Front end Technology/JavaScript/' },
+            { text: 'React', link: '/Front end Technology/React/' },
+            { text: 'TypeScript', link: '/Front end Technology/TypeScript/' },
+            { text: 'Vue', link: '/Front end Technology/Vue/' },
+            { text: 'WeChat Applets', link: '/Front end Technology/WeChat Applets/' },
+            { text: 'Node.js', link: '/Front end Technology/Node.js/' },
           ]
         },
         {
           text: 'Back end Technology',
           collapsed: true,
           items: [
-            {text: 'Java', link: '/Back end Technology/Java/'},
-            {text: 'SpringBoot', link: '/Back end Technology/SpringBoot/'},
-            {text: 'Docker', link: '/Back end Technology/Docker/'},
-            {text: 'Dubbo', link: '/Back end Technology/Dubbo/'},
-            {text: 'ElasticSearch', link: '/Back end Technology/ElasticSearch/'},
-            {text: 'PHP', link: '/Back end Technology/PHP/'},
-            {text: 'Mybatis', link: '/Back end Technology/Mybatis/'},
-            {text: 'Nginx', link: '/Back end Technology/Nginx/'},
-            {text: 'MongoDB', link: '/Back end Technology/MongoDB/'},
-            {text: 'Redis', link: '/Back end Technology/Redis/'},
-            {text: 'RabbitMQ', link: '/Back end Technology/RabbitMQ/'},
+            { text: 'Java', link: '/Back end Technology/Java/' },
+            { text: 'SpringBoot', link: '/Back end Technology/SpringBoot/' },
+            { text: 'Docker', link: '/Back end Technology/Docker/' },
+            { text: 'Dubbo', link: '/Back end Technology/Dubbo/' },
+            { text: 'ElasticSearch', link: '/Back end Technology/ElasticSearch/' },
+            { text: 'PHP', link: '/Back end Technology/PHP/' },
+            { text: 'Mybatis', link: '/Back end Technology/Mybatis/' },
+            { text: 'Nginx', link: '/Back end Technology/Nginx/' },
+            { text: 'MongoDB', link: '/Back end Technology/MongoDB/' },
+            { text: 'Redis', link: '/Back end Technology/Redis/' },
+            { text: 'RabbitMQ', link: '/Back end Technology/RabbitMQ/' },
           ]
         },
         {
           text: 'Design Development',
           collapsed: true,
-          items: [{text: 'Blender', link: '/Design Development/Blender/'},
-            {text: 'VitePress', link: '/Design Development/VitePress/'},
-            {text: 'VuePress', link: '/Design Development/VuePress/'},]
+          items: [{ text: 'Blender', link: '/Design Development/Blender/' },
+          { text: 'VitePress', link: '/Design Development/VitePress/' },
+          { text: 'VuePress', link: '/Design Development/VuePress/' },]
         },
         {
           text: 'Others',
           collapsed: true,
           items: [
-            {text: 'Git', link: '/Others/Git/'},
-            {text: 'Linux', link: '/Others/Liunx/'},
-            {text: 'Matlab', link: '/Others/Matlab/'},
-            {text: 'Python', link: '/Others/Python/'},
-            {text: 'R', link: '/Others/R/'},
-            {text: 'TensorFlow', link: '/Others/TensorFlow/'},
+            { text: 'Git', link: '/Others/Git/' },
+            { text: 'Linux', link: '/Others/Liunx/' },
+            { text: 'Matlab', link: '/Others/Matlab/' },
+            { text: 'Python', link: '/Others/Python/' },
+            { text: 'R', link: '/Others/R/' },
+            { text: 'TensorFlow', link: '/Others/TensorFlow/' },
           ]
         },
+
+      ],
+      '/About-Update/': [
+        { text: 'About', link: '/About-Update/about' },
+        { text: 'Updated', link: '/About-Update/update' }
       ]
     },
 
@@ -133,7 +182,7 @@ export default defineConfig({
               },
             },
           },
-          'en': {
+          'zh_CN': {
             translations: {
               button: {
                 buttonText: "搜索文档",

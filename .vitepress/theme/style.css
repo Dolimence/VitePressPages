@@ -137,4 +137,6 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
-
+.VPMenuGroup p.title{
+  font-weight: 800 !important;
+}

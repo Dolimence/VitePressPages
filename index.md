@@ -17,10 +17,10 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: https://www.notion.so/dolimence/DoliL-2bb88dd5ba57444c93305e96a458517f
+      link: /content/index
     - theme: alt
-      text: Update Content
-      link: /api-examples
+      text: About & Update
+      link: /About-Update/about
 
 head:
   - - meta
