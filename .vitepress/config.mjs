@@ -36,7 +36,7 @@ export default defineConfig({
     //   }
     // },
     editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      pattern: 'https://dolimence.github.io/VitePressPages/:path',
       text: 'Edit this page on GitHub'
     },
     lastUpdated: true, //此配置不会立即生效，需git提交后爬取时间戳，本地报错可以先注释
