@@ -130,7 +130,7 @@ export default defineConfig({
           collapsed: true,
           items: [{ text: 'Blender', link: '/Design Development/Blender/' },
           { text: 'VitePress', link: '/Design Development/VitePress/' },
-          { text: 'VuePress', link: '/Design Development/VuePress/' },]
+          { text: 'VuePress', link: '/Design Development/VuePress/VuePress Started' },]
         },
         {
           text: 'Others',
@@ -149,6 +149,11 @@ export default defineConfig({
       '/About-Update/': [
         { text: 'About', link: '/About-Update/about' },
         { text: 'Updated', link: '/About-Update/update' }
+      ],
+      '/Design Development/VuePress/':[
+        { text: 'VuePress Started', link: '/Design Development/VuePress/VuePress Started'},
+        { text: '目录结构', link: '/Design Development/VuePress/Directory Structure'},
+        { text: '部署', link :'/Design Development/VuePress/Deploying'},
       ]
     },
 
