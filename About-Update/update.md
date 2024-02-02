@@ -16,6 +16,7 @@ comment: false
 * 完成VitePress一阶段搭建，添加About页面
 * 改造导航栏，添加Guide
 * 优化项目结构
+* 添加评论功能
 
 ## 2024-02-01
 * 完成VitePress搭建，完成链接迁入
