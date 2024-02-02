@@ -66,7 +66,7 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 }
 ```
 ## 启动服务器
-输入命令 VuePress 会在 `http://localhost:8080` (opens new window)启动一个热重载的开发服务器。
+输入命令 VuePress 会在 http://localhost:8080 (opens new window)启动一个热重载的开发服务器。
 ::: code-group
 ```sh [npm]
 npm run docs:dev
