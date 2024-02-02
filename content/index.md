@@ -2,6 +2,7 @@
 title: Guide Page
 titleTemplate: Vite and Vue super learning document
 editLink: true
+comment: true
 ---
 
 <style>

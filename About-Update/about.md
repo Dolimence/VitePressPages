@@ -1,7 +1,8 @@
 ---
-editLink: false
+
 prev: false
 next: false
+comment: false
 ---
 # About
 
