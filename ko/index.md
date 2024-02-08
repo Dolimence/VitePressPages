@@ -47,7 +47,10 @@ features:
     linkText: Vite
 
     
-  - title: Feature C
+  - icon:
+      dark: https://gitea.com/ZiqiWei/DoPic/raw/branch/main/vitePress/hero.png
+      light: https://gitea.com/ZiqiWei/DoPic/raw/branch/main/vitePress/hero.png
+    title: VuePress
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
     link: https://vitejs.cn/
     linkText: Vite

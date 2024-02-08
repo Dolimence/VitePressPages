@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/VitePressPages/",
-  head: [["link", { rel: "icon", href: "/VitePressPages/logo.svg" }]],
+  head: [["link", { rel: "icon", href: "https://gitea.com/ZiqiWei/DoPic/raw/branch/main/vitePress/logo.svg" }]],
   title: "DoliL in VitePress",
   // 用来做SEO
   description: "A VitePress Site",
@@ -45,7 +45,7 @@ export default defineConfig({
 
     outlineTitle: "Document Content",
     outline: [2, 6],
-    logo: '/logo.svg',
+    logo: 'https://gitea.com/ZiqiWei/DoPic/raw/branch/main/vitePress/logo.svg',
     // siteTitle: false,
     // https://vitepress.dev/reference/default-theme-config
 
