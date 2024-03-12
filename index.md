@@ -52,7 +52,8 @@ features:
       light: https://gitea.com/ZiqiWei/DoPic/raw/branch/main/vitePress/hero.png
     title: VuePress
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: https://dolimence.gitee.io/docs-vuepress/
+    # link: https://dolimence.gitee.io/docs-vuepress/
+    link: https://vuepre.gitlab.io/doli/
     linkText: Vite
 ---
 
